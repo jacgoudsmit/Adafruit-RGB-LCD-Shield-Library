@@ -94,7 +94,7 @@ public:
   // only if using backpack
   void setBacklight(uint8_t status); 
 
-  void createChar(uint8_t, uint8_t[]);
+  void createChar(uint8_t, const uint8_t[]);
   void setCursor(uint8_t, uint8_t); 
 #if ARDUINO >= 100
   virtual size_t write(uint8_t);
